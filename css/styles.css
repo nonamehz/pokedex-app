@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Pixeloid';
-    src: url('../assets/fonts/PixeloidSans-nR3g1.ttf');
+    src: url('/assets/fonts/PixeloidSans-nR3g1.ttf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Pixeloid';
-    src: url('../assets/fonts/PixeloidSansBold-RpeJo.ttf');
+    src: url('/assets/fonts/PixeloidSansBold-RpeJo.ttf');
     font-style: normal;
     font-weight: bold;
 }
@@ -46,7 +46,7 @@ html {
 }
 
 .wrapper::before {
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('/assets/images/background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     content: '';
@@ -152,7 +152,7 @@ html {
 }
 
 .pokemon-background {
-    background-image: url('../assets/images/background-pokemon.jpg');
+    background-image: url('/assets/images/background-pokemon.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
