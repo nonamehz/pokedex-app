@@ -41,7 +41,7 @@ const buscarPokemon = async (pokemon) => {
     if (response.status === 404) return renderMessages('error-1');
 
     const { name, id, sprites } = await response.json();
-    const image = sprites['versions']['generation-v']['black-white']['animated']['front_default'];
+    const image = sprites['versions']['generation-v']['black-white']['animated']['front_default'] ?? sprites.front_default;
 
     renderPokemon({ name, id, image });
 
